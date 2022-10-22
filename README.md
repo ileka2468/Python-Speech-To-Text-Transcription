@@ -82,4 +82,4 @@ def main():
 ```PowerShell
 FileNotFoundError: [WinError 2] The system cannot find the file specified
 ```
-If this happens check your path and make sure it is correect. If the path is correct it means you did not install ffmpeg which is required. Refer to [Installing ffmpeg and Chocolatey (Required)](#installing-ffmpeg-and-chocolatey-(required)) above on how to install.
+If this happens check your path and make sure it is correect. If the path is correct it means you did not install ffmpeg which is required. Refer to [Installing ffmpeg and Chocolatey (Required)](##installing-ffmpeg-and-chocolatey-(required)) above on how to install.
