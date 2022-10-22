@@ -1,5 +1,7 @@
 # Python Speech To Text Transcription :speaking_head: :arrow_right: :scroll:
 Using the Whisper API we can transcribe audio clips of any length to create a transcription file that contains all the words said in the audio clip.
+
+:play_or_pause_button: [Video Tuorial on YouTube](https://youtu.be/iMh7WwxHjsg)
  
 ### Motivation :rocket:
 ------------------
