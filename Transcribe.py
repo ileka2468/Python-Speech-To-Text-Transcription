@@ -30,6 +30,7 @@ def transcribe(file, wpl):
                 if count % wpl == 0:
                     f.write("\n")
 def display_stats(dict):
+    print(f"{'Speech Stats':_^60}")
     print(f"Speech Complexity Score: {dict.get('Speech Complexity')}")
     print(f"Speech Grade Level: {dict.get('grade_level')}")
     print(f"Total Word Count: {dict.get('word_count')}")
@@ -37,8 +38,5 @@ def display_stats(dict):
     print(f"Total Number of Sentences: {dict.get('number_of_sentences')}")
     print(f"Average Words per Sentence: {dict.get('avg_word_per_sentences')}")
     print(f"Total Syllables Spoken: {dict.get('total_syllables')}")
-
-
-
 
 main()
