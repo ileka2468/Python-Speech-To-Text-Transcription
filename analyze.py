@@ -59,7 +59,7 @@ def speech_stats():
     return stats
 
 
-print(speech_stats())
+
 
 if __name__ == '__main__':
-    speech_stats()
+    print("hello")

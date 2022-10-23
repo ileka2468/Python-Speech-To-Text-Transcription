@@ -5,10 +5,10 @@ from analyze import speech_stats
 
 def main():
 
-    file = "sample_audio.wav"
+    file = "medschool_lecture.wav"
     # Number of words per line
     words_per_line = 10
-    # transcribe(file, words_per_line)
+    transcribe(file, words_per_line)
     display_stats(speech_stats())
 
 def transcribe(file, wpl):
@@ -35,7 +35,8 @@ def display_stats(dict):
     print(f"Total Word Count: {dict.get('word_count')}")
     print(f"Average Word Length: {dict.get('average_word_length')}")
     print(f"Total Number of Sentences: {dict.get('number_of_sentences')}")
-    print(f"Speech Complexity Score: {dict.get('Speech Complexity')}")
+    print(f"Average Words per Sentence: {dict.get('avg_word_per_sentences')}")
+    print(f"Total Syllables Spoken: {dict.get('total_syllables')}")
 
 
 
