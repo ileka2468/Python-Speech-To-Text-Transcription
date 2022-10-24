@@ -1,6 +1,6 @@
 import whisper  # needs GitHub version, pip install git+https://github.com/openai/whisper.git
 import splitClip
-from art import *
+import os
 from analyze import speech_stats
 
 def main():
@@ -23,6 +23,7 @@ def transcribe(file, wpl):
             print(f"{clips - num} left to be transcribed!")
             result = model.transcribe(f"{num}.wav", fp16=False)
             line = result["text"].split(" ")
+            os.remove(f"{num}.wav")
             count = 0
             for word in line:
                 count += 1
