@@ -1,4 +1,4 @@
-# https://github.com/ileka2468/Python-Speech-To-Text-Transcription :speaking_head: :arrow_right: :scroll:
+# Speech To Text Transcription and Speech Complexity Analysis :speaking_head: :arrow_right: :scroll:
 Using the Whisper API we can transcribe audio clips of any length to create a transcription file that contains all the words said in the audio clip. Then we can read, parse, and analyze these files for reading complexity using the Flesch Reading Ease and the Flesch Kincaid Grade Level.
 
 :play_or_pause_button: [Video Tuorial on YouTube](https://youtu.be/iMh7WwxHjsg)
