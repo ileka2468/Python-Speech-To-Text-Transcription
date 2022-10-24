@@ -23,6 +23,7 @@ def transcribe(file, wpl):
             print(f"{clips - num} left to be transcribed!")
             result = model.transcribe(f"{num}.wav", fp16=False)
             line = result["text"].split(" ")
+            # removes file after transcription
             os.remove(f"{num}.wav")
             count = 0
             for word in line:
